@@ -21,8 +21,8 @@
 
 @media screen and (max-width:1008px){
 	nav.navbar.bootsnav ul.nav > li.dropdown span.megamenu-title  {display:block;color: #43465d;font-size: 18px;}
-	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {margin-top: 20px;font-size: 14px;}
-	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a{margin-bottom: 15px;}
+	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {margin-top: 10px;font-size: 14px;}
+	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a{margin-bottom: 1px;}
 }/*max-width:1008px*/
 
 @media screen and (max-width:992px){

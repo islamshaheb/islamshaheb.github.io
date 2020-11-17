@@ -1,5 +1,5 @@
 
-    #fq{
+ #fq{
             color:  #186a3b;
             margin-left: 100px;
         }
@@ -27,6 +27,14 @@
   display: table;
 }
 
+.up{
+    margin-top:25px;
+}
+
+.col-sm4
+{
+    margin-left: 50px;
+}
 
 table, th, td {
   border: 1px solid black;
@@ -769,7 +777,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     outline: 0 !important;
     border:0;
     color: #fff;
-   
+    border-radius: 0px;
+    font-size:14px;
+    -webkit-transition: .5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
     -o-transition:.5s;
     transition: .5s;
 

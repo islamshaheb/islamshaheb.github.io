@@ -180,8 +180,8 @@
     }
 
     .resume{
-      margin-left: 70px;
-      margin-right:80px;
+      margin-left: 100px;
+      margin-right:120px;
     }
 
 
@@ -381,8 +381,8 @@
             2. Header
     --------------------------------------*/
     .top-area {
-        position: relative;
-        z-index: 9999;
+        position: block;
+        z-index: 10001;
     }
     @media (min-width: 1024px){}
     nav.navbar.bootsnav.no-background {
@@ -401,7 +401,7 @@
         display: inline-block;
         color: #d92cf9;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
         padding: 33px 0px 57px;
         text-transform: uppercase;
     }
@@ -409,8 +409,8 @@
 
     /*.nav li*/
     nav.navbar.bootsnav ul.nav > li > a {
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 13px;
+        font-weight: 200;
         text-transform:uppercase;
         -webkit-transition: 0.3s linear;
         -moz-transition: 0.3s linear;
@@ -426,7 +426,7 @@
     }
     nav.navbar.bootsnav ul.nav > li.dropdown span {
         font-size: 8px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
     .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
@@ -503,14 +503,15 @@
         letter-spacing: 1px;
     }
     .header-text a {
-        width: 200px;
-        height: 60px;
-        line-height: 60px;
+        margin-left: 20px;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
         border-radius: 3px;
         text-transform: capitalize;
-        color: #fff;
-        background: #b636ff;
-        border:1px solid #b636ff;
+        color: #FEF5E7;
+        background: #FEF5E7;
+        border:1px solid #FEF5E7;
         box-shadow: 0 5px 20px rgba(0,0,0,.2);
         -webkit-transition: 0.3s linear;
         -moz-transition: 0.3s linear;

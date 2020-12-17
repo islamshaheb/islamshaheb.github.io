@@ -7,6 +7,17 @@
         color: #800000;
     }
 
+ul.a {list-style-type: square;}
+
+    .blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    color: red;
+}
 
 
 /* Mouse*/
@@ -145,7 +156,7 @@
 
      .header-text
      {
-        margin-left: 50px;
+        margin-left: 020px;
      }
 
 
@@ -180,8 +191,8 @@
     }
 
     .resume{
-      margin-left: 100px;
-      margin-right:120px;
+    /*  margin-left: 100px;
+      margin-right:120px;*/
     }
 
 
@@ -214,7 +225,7 @@
 
  #experience
  {
-    margin-left: 180px;
+    /*margin-left: 180px;*/
  }
 /*end table section */
 
@@ -236,12 +247,12 @@
     /* All three parts size*/
     .left
     {
-        width:25%;
-        background-color:#FEF5E7;
+        width:82%;
+        background-color:#85C1E9;
     }
     .lefttext{
-        margin-top:70px;
-        margin-left: 50px;
+        margin-top:30px;
+        margin-left: 03px;
         color:#800000;
         line-height: 0.7;
 
@@ -252,25 +263,26 @@
     }
     .OverAll{
         color: #800000;
-        margin-left: 105px;
+        margin-left: 30px;
     }
 
     .right {
 
-      width: 30%;
+      width: 18%;
+       background-color:#FEF5E7;
 
     }
 
-    .middle {
+/*    .middle {
       width: 45%;
       background-color:#85C1E9;
 
-    }
+    
     .middle_div{
         margin-left: 60px;
         margin-top: 70px;
     }
-
+}*/
     .mujahid
     {
 
@@ -303,8 +315,9 @@
 
 
     .muimg {
-      width: 100%;
-      height: auto;
+        border-radius: 50%;
+       
+
 
     }
 
@@ -503,7 +516,7 @@
         letter-spacing: 1px;
     }
     .header-text a {
-        margin-left: 20px;
+        margin-left:00px;
         width: 100px;
         height: 50px;
         line-height: 50px;
@@ -519,7 +532,7 @@
         -o-transition: 0.3s linear;
         transition: 0.3s linear;
     }
-    .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+    .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#85C1E9;border: 0px solid #9f00ff;}
     /*.header-text-area*/
 
     /*-------------------------------------
@@ -610,7 +623,7 @@
 
     .education {
         background:  #f9fbfd;
-        padding-top:  50px;
+        padding-top:  10px;
     }
     .education-horizontal-timeline {
         padding: 80px 0;
@@ -800,7 +813,7 @@
             8. Profiles
     --------------------------------------*/
     .profiles {
-        padding:  50px 0 100px;
+        padding:  00px 0 00px;
         border:  1px solid #e5ebf2;
     }
 
@@ -1024,7 +1037,7 @@
     }
     .row
     {
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .single-contact-btn:hover{
         background: #9f00ff;
@@ -1148,7 +1161,14 @@
 
            #fq{
                 
-                margin-left: 200px;
+                margin-left: 00px;
                 color:black;
+                font-size:;
+            }
+            #fsq{
+                
+                margin-left:50px;
+                color:black;
+                font-size:50px;
             }
     /*========================Thank you=================

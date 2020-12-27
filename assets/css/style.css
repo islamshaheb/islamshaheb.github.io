@@ -585,9 +585,9 @@ ul.a {list-style-type: square;}
     {
        
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: bold;
-        color: #374054;
+        color: #800000;
        margin-bottom: -10px
     }
 
@@ -1076,7 +1076,7 @@ ul.a {list-style-type: square;}
         height: 90px;
         background: #1f2c6c;
     }
-    /*.ab-list-icon */
+    /*/*.ab-list-icon */
     .about-list-icon ul {
         display: flex;
     }
@@ -1098,7 +1098,7 @@ ul.a {list-style-type: square;}
         text-align: center;
     }
     .about-list-icon ul li a i {
-        margin-left: 6px;
+        margin-left: 6px;*/
     }
     /*.ab-list-icon */
 

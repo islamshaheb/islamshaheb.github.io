@@ -659,6 +659,15 @@ ul.a {list-style-type: square;}
       border-collapse: collapse;
     }
 
+
+    .ta,tr,td,th{
+     
+      margin: 10px 50px 0px 60px;
+      /*border: 100px solid white;*/
+       border: 20px solid white;
+      border-collapse: collapse;
+    }
+
     .resume{
     /*  margin-left: 100px;
       margin-right:120px;*/
@@ -716,7 +725,7 @@ ul.a {list-style-type: square;}
 .janina{
       float: left;
       padding: 1px;
-      height: 400px; /* Should be removed. Only for demonstration */
+      height: 420px; /* Should be removed. Only for demonstration */
     }
 
     /* All three parts size*/
